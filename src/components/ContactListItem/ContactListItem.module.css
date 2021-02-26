@@ -1,0 +1,49 @@
+.item {
+  display: flex;
+  min-width: 400px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 0 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.section__btn {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  background-color: #f88a8a;
+  border-color: transparent;
+  color: #0a4579;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.list {
+  margin-left: 10px;
+}
+
+.enter {
+  opacity: 0;
+  transform: scale(0.1);
+}
+
+.enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 250ms linear;
+}
+
+.exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.exit-active {
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 250ms linear;
+}
