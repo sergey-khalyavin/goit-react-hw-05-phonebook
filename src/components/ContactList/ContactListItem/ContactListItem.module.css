@@ -1,3 +1,21 @@
+.enter {
+  transform: translateX(-100%);
+}
+
+.enterActive {
+  transform: translateX(0);
+  transition: translateX 250ms linear;
+}
+
+.exit {
+  transform: translateX(0);
+}
+
+.exitActive {
+  transform: translateX(-100%);
+  transition: translateX 250ms linear;
+}
+
 .item {
   display: flex;
   min-width: 400px;
@@ -24,26 +42,4 @@
 
 .list {
   margin-left: 10px;
-}
-
-.enter {
-  opacity: 0;
-  transform: scale(0.1);
-}
-
-.enter-active {
-  opacity: 1;
-  transform: scale(1);
-  transition: all 250ms linear;
-}
-
-.exit {
-  opacity: 1;
-  transform: scale(1);
-}
-
-.exit-active {
-  opacity: 0;
-  transform: scale(0.1);
-  transition: all 250ms linear;
 }

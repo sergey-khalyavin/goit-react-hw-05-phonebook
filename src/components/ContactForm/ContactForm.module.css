@@ -1,6 +1,6 @@
 .form {
   padding: 0;
-  border: 1px solid black;
+  border: 1px solid #000;
   padding: 20px;
 }
 
@@ -16,7 +16,7 @@
 
 .btn {
   padding: 8px 16px;
-  min-width: 736px;
+  width: 177px;
   border-radius: 3px;
   background-color: #3884ff;
   transition: all 200ms ease;

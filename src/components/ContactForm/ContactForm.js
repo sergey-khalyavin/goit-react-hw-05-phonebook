@@ -42,14 +42,16 @@ export default class ContactForm extends Component {
           Number
           <input
             className={styles.input}
-	    type="number"
+            type="number"
             name="number"
             value={this.state.number}
             onChange={this.handleChange}
           ></input>
         </label>
 
-        <button type="submit">Add contact</button>
+        <button type="submit" className={styles.btn}>
+          Add contact
+        </button>
       </form>
     );
   }
